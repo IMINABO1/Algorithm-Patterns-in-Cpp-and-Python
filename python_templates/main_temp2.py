@@ -2,7 +2,7 @@ import sys
 from os import path
 def input():
     return sys.stdin.readline().strip()
-
+print = sys.stdout.write
     
 def solve(n,array):
     # YOUR CODE HERE
